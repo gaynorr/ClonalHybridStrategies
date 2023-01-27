@@ -1,0 +1,87 @@
+Column Header,Description
+compatScenario,concatenation of the genetic architecture properties of the starting population
+scenario,"combination of strategy, assumed cycle length, selection intensity, and estimation method"
+strategy,The breeding strategy
+intensity,The selection intensity
+Method,The estimation method and assumed cycle lengths
+rep,The replicate
+cycle,The breeding cycle
+year,The year given assumed cycle lengths
+yearMaker,Variable to subset responses at 15 years (value = 8) or at 50 years (value = 25) as well as at 25 cycles for phenotypic selection (value = 25)
+meanDD,The mean dominance degree of the starting population
+varDD,The variance of dominance degrees in the starting population
+ploidy,The ploidy level
+nQTL,The number of trait QTL
+nSNP,"The number of genotyped SNPs per chromosome, if applicable; always 100 per chromosome"
+nChr,The number of chromosomes; always 10
+meanG.Hybrids,The mean genetic value of the inter-pool hybrids in two-pool strategies
+meanG.Elite,The mean genetic value of the intra-pool genotypes in one-pool strategies
+meanG.EliteA,The mean genetic value of the intra-pool genotypes in the first pool in two-pool strategies
+meanG.EliteB,The mean genetic value of the intra-pool genotypes in the second pool in two-pool strategies
+meanA.Hybrids,The mean additive value of the inter-pool hybrids in two-pool strategies
+meanA.Elite,The mean additive value of the intra-pool genotypes in one-pool strategies
+meanA.EliteA,The mean additive value of the intra-pool genotypes in the first pool in two-pool strategies
+meanA.EliteB,The mean additive value of the intra-pool genotypes in the second pool in two-pool strategies
+meanD.Hybrids,The mean dominance value of the inter-pool hybrids in two-pool strategies
+meanD.Elite,The mean dominance value of the intra-pool genotypes in one-pool strategies
+meanD.EliteA,The mean dominance value of the intra-pool genotypes in the first pool in two-pool strategies
+meanD.EliteB,The mean dominance value of the intra-pool genotypes in the second pool in two-pool strategies
+meanGCA.A,The mean GCA of the intra-pool genotypes in the first pool in two-pool strategies
+meanGCA.B,The mean GCA of the intra-pool genotypes in the second pool in two-pool strategies
+meanTrueGCA.A,The mean true GCA of the intra-pool genotypes in the first pool in two-pool strategies
+meanTrueGCA.B,The mean true GCA of the intra-pool genotypes in the second pool in two-pool strategies
+meanTrueSCA.Hybrids,The mean true SCA of the inter-pool genotypes in two-pool strategies
+acc.Elite,The accuracy of estimates of breeding value in the intra-pool genotypes in one-pool strategies
+accGCA.EliteA,The accuracy of estimates of GCA in the first pool of intra-pool genotypes in one-pool strategies
+accGCA.EliteB,The accuracy of estimates of GCA in the second pool of intra-pool genotypes in one-pool strategies
+accGPCP.Elite,The accuracy of genomic estimates of cross performance in the intra-pool genotypes in one-pool strategies
+acc.EliteA,The accuracy of estimates of breeding value in the first pool intra-pool genotypes in two-pool strategies
+acc.EliteB,The accuracy of estimates of breeding value in the second pool intra-pool genotypes in two-pool strategies
+Accuracy,The selection accuracy for all strategies
+varG.Hybrids,The total true genetic variance of the inter-pool hybrids in two-pool strategies
+varG.Elite,The total true genetic variance of the intra-pool genotypes in one-pool strategies
+varG.EliteA,The total true genetic variance of the first pool intra-pool genotypes in two-pool strategies
+varG.EliteB,The total true genetic variance of the second pool intra-pool genotypes in two-pool strategies
+varA.Hybrids,The true additive genetic variance of the inter-pool hybrids in two-pool strategies
+varA.Elite,The true additive variance of the intra-pool genotypes in one-pool strategies
+varA.EliteA,The true additive variance of the first pool intra-pool genotypes in two-pool strategies
+varA.EliteB,The true additive variance of the second pool intra-pool genotypes in two-pool strategies
+varD.Hybrids,The true dominance genetic variance of the inter-pool hybrids in two-pool strategies
+varD.Elite,The true dominance variance of the intra-pool genotypes in one-pool strategies
+varD.EliteA,The true dominance variance of the first pool intra-pool genotypes in two-pool strategies
+varD.EliteB,The true dominance variance of the second pool intra-pool genotypes in two-pool strategies
+varGCA.EliteA,The true GCA variance of the first pool intra-pool genotypes in two-pool strategies
+varGCA.EliteB,The true GCA variance of the second pool intra-pool genotypes in two-pool strategies
+varSCA.Hybrids,The true SCA variance of the inter-pool hybrids in two-pool strategies
+meanInbr.Elite,The mean inbreeding coefficient of the intra-pool genotypes in one pool strategies with true values
+meanInbr.EliteA,The mean inbreeding coefficient of the first pool intra-pool genotypes in two pool strategies with true values
+meanInbr.EliteB,The mean inbreeding coefficient of the second pool intra-pool genotypes in two pool strategies with true values
+meanInbr.Hybrids,The mean inbreeding coefficient of the inter-pool hybrids in two pool strategies with true values
+FullInbr.Elite,The population mean of the intra-pool genotypes if fully inbred in one pool strategies
+FullInbr.Hybrids,The population mean of the inter-pool hybrids if fully inbred in two pool strategies
+FullInbr.EliteA,The population mean of the first pool intra-pool genotypes if fully inbred in two pool strategies
+FullInbr.EliteB,The population mean of the second pool intra-pool genotypes if fully inbred in two pool strategies
+InbreedingDepression.Hybrids,The population mean of the inter-pool hybrids if fully inbred minus the population mean of the inter-pool hybrids at HWE in the two-pool strategies
+InbreedingDepression.Elite,The population mean of the intra-pool genotypes if fully inbred minus the population mean of the intra-pool genotypes at HWE in the one-pool strategies
+InbreedingDepression.EliteA,The population mean of the first pool intra-pool genotypes if fully inbred minus the population mean of the intra-pool genotypes at HWE in the two-pool strategies
+InbreedingDepression.EliteB,The population mean of the second pool intra-pool genotypes if fully inbred minus the population mean of the intra-pool genotypes at HWE in the two-pool strategies
+meanPanHet,The mean panmictic heterosis of inter-pool hybrids compared to the mean intra-pool genotype values at HWE in two pool strategies
+meanInbrMidHet,The mean inbred-midparent heterosis of inter-pool hybrids
+BaselineHeterosis,The baseline heterosis of the intra-pool genotypes in two pool strategies
+F2Heterosis,"For the two-pool scenarios, the hybrid population mean minus the mean of the hybrid population at HWE; F2 Heterosis is a misnomer for autopolyploids, which do not reach HWE in the hybrid F2 generation"
+ExcessHet,"For the one-pool scenarios, the mean of the population at HWE minus the mean of the population"
+mu.Elite,same as meanG.Elite
+mu.Hybrids,same as meanG.Hybrids
+mu.EliteA,same as meanG.EliteA
+mu.EliteB,same as meanG.EliteB
+mu_HW.Hybrids,The mean of the inter-pool hybrid population at HWE in two pool strategies
+mu_HW.EliteA,The mean of the first pool intra-pool genotypes at HWE in the one pool strategies
+mu_HW.EliteB,The mean of the second pool intra-pool genotypes at HWE in the one pool strategies
+mu_HW.Elite,The mean of the intra-pool genotypes at HWE in one pool strategies
+Start.MeanG,The population mean of the initial population
+Start.FullInbr,The population mean of the initial population if fully inbred
+Start.HWE,The population mean of the initial population at HWE
+Start.VarA,The true additive genetic variance of the initial population
+Start.VarD,The true additive dominance variance of the initial population
+Start.VarG,The true total genetic variance of the initial population
+Start.scaledInbrDep,The mean of the initial population if fully inbred minus the mean of the initial population at HWE divided by the square root of the true total genetic variance of the initial population
