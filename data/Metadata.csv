@@ -2,7 +2,7 @@ Column Header,Description
 compatScenario,concatenation of the genetic architecture properties of the starting population
 scenario,"combination of strategy, assumed cycle length, selection intensity, and estimation method"
 strategy,The breeding strategy
-intensity,The selection intensity
+intensity,"The selection intensity. The EPPP scenarios are indicated here with ""EPPP High Intensity"" and ""EPPP Low Intensity""."
 Method,The estimation method and assumed cycle lengths
 rep,The replicate
 cycle,The breeding cycle
